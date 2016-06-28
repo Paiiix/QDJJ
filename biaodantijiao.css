@@ -1,9 +1,33 @@
+body{
+	background: #FFDAB9;
+}
+table{
+
+	border-collapse: collapse;
+}
+/*蓝色字体*/
 .blue{
 	color:#0000ff
 }
+
 .ali{
 	text-align: right;
 }
+
+/*居右*/
 .right{
 	text-align: right;
+}
+
+/*给表格标题样式*/
+table caption {
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+/*给表单居中*/
+table {
+    margin: 100px auto;
 }
